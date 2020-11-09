@@ -1,0 +1,35 @@
+.game-view {
+    background-image: url("images/backgrounds/green-adjusted.jpg");
+    background-size: 100% 100%;
+}
+
+.enabled-button {
+    border: solid black 2px;
+    color: darkgreen;
+    background-color: #84bf84;
+    font-size: larger;
+}
+
+.disabled-button {
+    border: solid black 2px;
+    color: #666565;
+    background-color: #e2dede;
+    font-size: larger;
+}
+
+.static-buttons {
+    border: solid black 2px;
+    color: #1554f1;
+    background-color: #ffda86;
+    font-size: 1.25em;
+}
+
+.placebet-field {
+    background-color: #ffda86;
+    color: #1a8460;
+    width: 20%;
+    height: 80%;
+    border-radius: 10px;
+    border: solid black 2px;
+}
+

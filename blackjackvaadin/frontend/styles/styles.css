@@ -1,0 +1,66 @@
+.anchors {
+    padding: 1em 1em 1em 1em;
+    color: darkgreen;
+    text-shadow: black;
+    text-decoration: none;
+    font-size: 1.1em;
+
+}
+
+.anchors:hover {
+    color: black;
+    text-decoration: underline black;
+}
+
+.top-bar {
+    border: solid black 1px;
+    border-radius: 15px;
+    background-color: rgba(256, 256, 256, 0.75);
+}
+
+.main-view {
+    /*background-color: rgb(29, 99, 12);*/
+    background-image: url("images/backgrounds/poker.jpg");
+    background-size: 100% 100%;
+}
+
+.rules {
+    border: solid black 1px;
+    border-radius: 15px;
+    background-color: rgba(256, 256, 256, 0.90);
+    color: darkgreen;
+    text-shadow: black;
+    text-decoration: none;
+    font-size: 1.1em;
+    align-items: center;
+    margin: 0px;
+}
+
+.rules p {
+    margin: 5px;
+}
+
+.welcome-message {
+    color: burlywood;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.register-form {
+    background: whitesmoke;
+    border-radius: 15px;
+    border: black solid 1px;
+    align-self: center;
+}
+
+.highscore-view {
+    background-image: url("images/backgrounds/green-adjusted.jpg");
+    background-size: 100% 100%;
+}
+
+/*.person-grid{
+    background: rgba(245, 245, 245, 0.75);
+    border-radius: 15px;
+    border: black solid 1px;
+    align-self: center;
+}*/
+

@@ -1,0 +1,27 @@
+/*:host([theme~="grid-selection-theme"]) [part~="row"][selected] [part~="body-cell"]:not([part~="details-cell"]) {
+    background-color: red;
+}*/
+/*
+:host([theme~="spacing"]) ::slotted(*){
+    border-radius: 15px;
+    border:solid black 2px;
+}*/
+
+/*styling cells*/
+[part~="cell"].highscore-grid {
+    background: rgba(245, 222, 179, 0.90);
+    color: black;
+}
+
+/*styling the bottom of the grid*/
+:host(:not([theme~="no-border"])) {
+    border: var(--_lumo-grid-border-width) solid var(--_lumo-grid-border-color);
+    background: rgba(245, 222, 179, 0.75);
+    border-radius: 0px 0px 15px 15px;
+}
+
+/*styling the top of the grid*/
+:host(:not([theme~="no-row-borders"])) [part="row"]:last-child [part~="header-cell"] {
+    border-bottom-color: var(--_lumo-grid-secondary-border-color);
+    background: rgba(198, 156, 83, 0.9);
+}
